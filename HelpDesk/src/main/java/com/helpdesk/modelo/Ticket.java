@@ -9,7 +9,7 @@ public class Ticket {
     private String descripcion;
     private Prioridad prioridad;
     private Estado estado;
-    private String agenteAsignado; // id del agente, null hasta que se asigna
+    private String agenteAsignado; 
     private LocalDateTime fechaCreacion;
     private LocalDateTime fechaLimiteSla;
 
